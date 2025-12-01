@@ -1,0 +1,100 @@
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+build/
+dist/
+.cache/
+coverage/
+*.log
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+venv/
+env/
+.venv/
+ENV/
+*.env
+*.env.*
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/secrets.toml
+.streamlit/*.json
+
+# -----------------------------
+# LangGraph / LangChain
+# -----------------------------
+# Local vector DBs & embeddings
+chroma/
+chroma_data/
+vectorstore/
+index_store/
+indexes/
+*.faiss
+*.hnsw
+
+# Checkpoints (LangGraph / persistence)
+checkpoints/
+*.sqlite
+*.db
+*.db-journal
+
+# -----------------------------
+# SQLite Files
+# -----------------------------
+*.sqlite3
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Environment & API Keys
+# -----------------------------
+.env
+*.env
+secrets.env
+apikey.txt
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Node (if frontend added)
+# -----------------------------
+node_modules/
+package-lock.json
+
+# -----------------------------
+# Uploads or temp files
+# -----------------------------
+uploads/
+tmp/
+temp/
+*.tmp
+
+.env
+env
+chatbot.db
+chatbot.db-shm
+chatbot.db-wal
+chatbot.db-x-checkpoints-2-2checkpoint.bin
